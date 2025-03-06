@@ -1,6 +1,7 @@
 import { Outlet } from "react-router-dom";
 import AppNav from "./AppNav";
 import Logo from "./Logo";
+import Footer from "./Footer";
 import styles from "./Sidebar.module.css";
 
 function Sidebar() {
@@ -11,11 +12,7 @@ function Sidebar() {
 
       <Outlet />
 
-      <footer className={styles.footer}>
-        <p className={styles.copyright}>
-          &copy; Copyright {new Date().getFullYear()} by WorldWise INC.
-        </p>
-      </footer>
+      <Footer styles={styles} />
     </div>
   );
 }
