@@ -10,6 +10,7 @@ function Sidebar() {
       <Logo />
       <AppNav />
 
+      {/* This outlet use for nested routes will show here. Like children element. */}
       <Outlet />
 
       <Footer styles={styles} />

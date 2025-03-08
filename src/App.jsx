@@ -41,6 +41,7 @@ function App() {
         <Route path="product" element={<Product />} />
         <Route path="pricing" element={<Pricing />} />
         <Route path="login" element={<Login />} />
+        {/* Nested route */}
         <Route path="app" element={<AppLayout />}>
           <Route index element={<Navigate replace to="cities" />} />
           <Route
