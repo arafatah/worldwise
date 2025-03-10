@@ -17,7 +17,7 @@ function CountriesList() {
     } else {
       return acc;
     }
-  }, []);
+  }, []); 
 
   return (
     <ul className={styles.countryList}>
