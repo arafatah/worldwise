@@ -47,6 +47,30 @@
         "lat": "39.232253141714914",
         "lng": "-4.7900390625"
       }
+    },
+    {
+      "id": "0108",
+      "cityName": "El Borma",
+      "country": "Algeria",
+      "emoji": "🇩🇿",
+      "date": "2025-03-11T06:39:42.145Z",
+      "notes": "TEST",
+      "position": {
+        "lat": "30.883369321692268",
+        "lng": "6.767578125000001"
+      }
+    },
+    {
+      "id": "dc79",
+      "cityName": "Chauth ka Barwara",
+      "country": "India",
+      "emoji": "🇮🇳",
+      "date": "2025-03-11T06:39:58.025Z",
+      "notes": "UHH",
+      "position": {
+        "lat": "25.997549919572112",
+        "lng": "76.06933593750001"
+      }
     }
   ]
 }
