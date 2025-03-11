@@ -51,6 +51,7 @@ function Form() {
               "That doesn't seems to be country please click somewhere else."
             );
           setCityName(data.city || data.locality || "");
+          setCountry(data.countryName);
           setEmoji(convertToEmoji(data.countryCode));
         } catch (err) {
           console.log(err);
@@ -66,6 +67,17 @@ function Form() {
 
   function handleSubmit(e) {
     e.preventDefault();
+    if (!cityName || !date) return;
+    const newCity = {
+      cityName,
+      country,
+      emoji,
+      date,
+      notes,
+      position: { lat, lng },
+    };
+
+    console.log(newCity);
   }
 
   if (isLoadingGeocoding) <Spinner />;
