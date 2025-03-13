@@ -83,6 +83,42 @@
         "lat": "34.95799531086792",
         "lng": "42.01171875000001"
       }
+    },
+    {
+      "id": "14e6",
+      "cityName": "Sebezh",
+      "country": "Russian Federation (the)",
+      "emoji": "🇷🇺",
+      "date": "2025-03-13T05:27:49.488Z",
+      "notes": "",
+      "position": {
+        "lat": "56.32110624718752",
+        "lng": "29.11239624023438"
+      }
+    },
+    {
+      "id": "ac6b",
+      "cityName": "Dohar",
+      "country": "Bangladesh",
+      "emoji": "🇧🇩",
+      "date": "2025-03-13T05:28:20.856Z",
+      "notes": "",
+      "position": {
+        "lat": "23.60426184707018",
+        "lng": "90.17578125000001"
+      }
+    },
+    {
+      "id": "9aab",
+      "cityName": "Viuz-en-Sallaz",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2025-03-13T05:32:17.176Z",
+      "notes": "",
+      "position": {
+        "lat": "46.16461444763855",
+        "lng": "6.394042822660819"
+      }
     }
   ]
 }
