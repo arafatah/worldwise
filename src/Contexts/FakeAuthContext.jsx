@@ -6,7 +6,7 @@ const initialState = {
   user: null,
   isAuthenticated: false,
 };
-
+   
 function reducer(state, action) {
   switch (action.type) {
     case "login":
