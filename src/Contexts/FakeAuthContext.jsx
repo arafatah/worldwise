@@ -17,7 +17,7 @@ function reducer(state, action) {
       throw new Error("Unknown action");
   }
 }
-
+    
 const FAKE_USER = {
   name: "Jack",
   email: "jack@example.com",
