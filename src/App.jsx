@@ -24,7 +24,7 @@ const Pricing = lazy(() => import("./pages/Pricing"));
 const Login = lazy(() => import("./pages/Login"));
 const AppLayout = lazy(() => import("./pages/AppLayout"));
 const PageNotFound = lazy(() => import("./pages/PageNotFound"));
-
+    
 // dist/assets/index-d99acfc6.css   30.25 kB │ gzip:   5.07 kB
 // dist/assets/index-3ae5f4e1.js   508.82 kB │ gzip: 148.47 kB
 
