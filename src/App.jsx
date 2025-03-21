@@ -1,6 +1,6 @@
 import { lazy, Suspense } from "react";
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
-
+     
 import { CitiesProvider } from "./Contexts/CitiesContext";
 import { AuthProvider } from "./Contexts/FakeAuthContext";
 import ProtectedRoutes from "./pages/ProtectedRoutes";
